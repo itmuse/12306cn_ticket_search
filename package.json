@@ -1,0 +1,19 @@
+{
+  "name": "12306cn",
+  "version": "1.0.0",
+  "description": "+ 自动打开网页：https://www.12306.cn/index/ + 自动输入“出发地”、“到达地”和“出发日期” + 把查询出来的车票，保存在 json 格式文件里面 + 在查询出来的车票中，找出时间最短的 5 张票",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "playwright": "^1.53.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
