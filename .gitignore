@@ -1,0 +1,16 @@
+# Node.js 依赖
+node_modules/
+
+# TypeScript 编译输出
+*.tsbuildinfo
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac 系统文件
+.DS_Store
+
+# 运行结果数据
+/data/*.json 
